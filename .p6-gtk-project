@@ -1,0 +1,12 @@
+prefix=Zenity
+struct-prefix=Zenity
+modules=Zenity::Raw::Types
+backups=backup,google-backup,github,sourcehut
+hfile-prefix=
+lib=zenity
+include-directory=/home/cbwood/Projects/zenity
+exec=p6gtkexec
+subprefixes=
+idir-avail=True
+extension=.h
+build-exclude=Zenity::Raw::Traps
