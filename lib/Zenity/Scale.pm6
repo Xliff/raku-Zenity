@@ -26,7 +26,7 @@ class Zenity::Msg {
     :v(:val(:$value))                                 = 0,
     :min(:min_value(:$min-value))                     = 0,
     :max(:max_value(:$max-value))                     = 100,
-    :step                                             = 1,
+    :$step                                            = 1,
     :$modal                                           = False,
     :hide(:hide_value(:$hide-value))                  = False,
     :exit_code(:$exit-code);
